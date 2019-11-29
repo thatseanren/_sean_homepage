@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/_sean_homepage/static/css/main.6079104d.chunk.css",
+    "main.js": "/_sean_homepage/static/js/main.b7b8d434.chunk.js",
+    "main.js.map": "/_sean_homepage/static/js/main.b7b8d434.chunk.js.map",
+    "runtime-main.js": "/_sean_homepage/static/js/runtime-main.44219cac.js",
+    "runtime-main.js.map": "/_sean_homepage/static/js/runtime-main.44219cac.js.map",
+    "static/js/2.b79742fd.chunk.js": "/_sean_homepage/static/js/2.b79742fd.chunk.js",
+    "static/js/2.b79742fd.chunk.js.map": "/_sean_homepage/static/js/2.b79742fd.chunk.js.map",
+    "index.html": "/_sean_homepage/index.html",
+    "precache-manifest.1b200b9263bd4d59c731221c9fdec213.js": "/_sean_homepage/precache-manifest.1b200b9263bd4d59c731221c9fdec213.js",
+    "service-worker.js": "/_sean_homepage/service-worker.js",
+    "static/css/main.6079104d.chunk.css.map": "/_sean_homepage/static/css/main.6079104d.chunk.css.map",
+    "static/media/ren.jpg": "/_sean_homepage/static/media/ren.85a8be08.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44219cac.js",
+    "static/js/2.b79742fd.chunk.js",
+    "static/css/main.6079104d.chunk.css",
+    "static/js/main.b7b8d434.chunk.js"
+  ]
+}
