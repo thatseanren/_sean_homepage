@@ -3,14 +3,18 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
   <title>G'day` Ren</title>
 </head>
 
 <body>
   <div id='background'>
-    <!-- <img src='./ComponentTMP_0-image.jpg'> -->
+    <img src='./ScreenShot2019-11-29at10.37.31pm.png'>
   </div>
   <div class='h-section'>
     <div class='component-avatar'></div>
@@ -22,12 +26,14 @@
         <li id='Value'> <a> Value</a></li>
       </ul>
       <h3>Contact Me</h3>
-      <a href="https://www.facebook.com/profile.php?id=100007375026743"><i class="fa fa-facebook-square" style="font-size:28px;color:#4267b2"></i></a>
-      <a href="https://www.linkedin.com/in/siyang-ren-13b422b6/"><i class="fa fa-linkedin-square" style="font-size:28px;color:#0073b1;"></i></a>
-      <a href="https://www.instagram.com/sean.ren/"><i class="fa fa-instagram" style="font-size:28px"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100007375026743"><i class="fa fa-facebook-square"
+          style="font-size:250%;color:#4267b2"></i></a>
+      <a href="https://www.linkedin.com/in/siyang-ren-13b422b6/"><i class="fa fa-linkedin-square"
+          style="font-size:250%;color:#0073b1;"></i></a>
+      <a href="https://www.instagram.com/sean.ren/"><i class="fa fa-instagram" style="font-size:250%"></i></a>
     </div>
     <span id="name"> REN Siyang</span>
-    <span id='title'>Front-end-developer</span>
+    <!-- <span id='title'>Front-end-developer</span> -->
     <div id='btn'>
 
     </div>
@@ -53,11 +59,47 @@
       </a>
     </div>
   </div>
+  <div class='e-section'>
+    <h2>Education</h2>
+    <a href='https://www.uts.edu.au/'>
+      <div id='carouselEducation' class = 'carousel slide' data-ride='carousel'>
+        <div class ='carousel-inner'>
+            <div class='img-area carousel-item active'>
+                <img class='d-block' src='./IMG_1186.jpeg' alt="First slide"></img>
+              </div>
+              <div class='img-area carousel-item'>
+                  <img class='d-block' src='./IMG_1186.jpeg' alt="Second slide"></img>
+                </div>
+        </div>  
+      </div>
+    </a>
+  </div>
 </body>
 <script>
   var typed = new Typed('.description-content', {
     strings: ['Ren is a person who constantly imagines himself as he is racing towards the future'],
     smartBackspace: true, typeSpeed: 50, cursorChar: '*', loopCount: 5// Default value
-  });</script>
+  });
+  var controller = new ScrollMagic.Controller();
 
+  // create a scene
+  new ScrollMagic.Scene({
+    offset: 100 // start this scene after scrolling for 50px
+  })
+    .setClassToggle(".h-section", "shallow") // add class toggle
+    .addTo(controller); // assign the scene to the controller
+  new ScrollMagic.Scene({
+    
+  })
+  
+  
+  const values = 'Do what I love, Love what I do, My passionate is to finding a way to love my job, integrate my personality with my responsibility. Use my knowledge deliver the best to my job'
+  const values2 = 'Respect the knowledge, Valuing the diversity of knowledge, achieving a comprehensive knowledge base to serve my job, obsorbing, discussing and sharing every valuable piece of knowledge to people who need.'
+  const values3 = 'Determinated, valuing every product, demonstrating a "can-be-better" attitude and mainteining a keep-evovling production system. '
+  const bio = "I am an international studen from University of Technology, Sydney, my major is Becholar of Science in Information Technology. Back in my young age, I am a big fan of Leagur of Legends, The reason I step into Front-end development is that I met a friend of mine in the collage, he started by asking me what is my primary language, and I was like I dont really have one yet, what is yours? He replied me Javascript. I was like oh thats amazing. Since then, javascript has become my primary language. So, everytime I see some articles about javascript tricks, pros and downs, you will definetly see me clicking on that article and start enjoying. And when I looked back, I realized things just happened randomly, of course his primary language is javascript as a front-end developer, and I started to know javascript just because it is the first language that was introduced to my by a close friend. Thus, meeting both him and Javascript is always a pleasent memory for me. "
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>

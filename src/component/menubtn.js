@@ -6,8 +6,8 @@ export default function MenuBtn() {
     useEffect(() => {
         $('.menu-btn').on('click',
             () => {
-                $('.menu-btn').hasClass('show') ?
-                    ($('.menu-btn').removeClass('show') && $('.h-section-navi').removeClass('show') && $('.MuiAvatar-root').removeClass('show')) : ($('.menu-btn').addClass('show') && $('.h-section-navi').addClass('show') && $('.MuiAvatar-root').addClass('show'))
+                $('body').hasClass('show') ?
+                    $('body').removeClass('show') : $('body').addClass('show')
             })
     }, []);
     return (<a class='menu-btn'>

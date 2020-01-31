@@ -7,7 +7,7 @@ const useStyles = makeStyles(theme => ({
     root: {
         height: '100px',
         width: '100px',
-        top: '35px',
+        top: '25px',
     },
 }));
 

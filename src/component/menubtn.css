@@ -1,4 +1,4 @@
-@media (max-width: 758px) {
+@media (max-width: 1960px) {
     a.menu-btn{
         position: absolute;
         display: block;
@@ -13,7 +13,7 @@
     div.line{
         position: absolute;
         width:42.5%;
-        background: black;
+        background: antiquewhite;
         height: 1px;
     }
     div.line1{
