@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import './menubtn.css';
 import $ from 'jquery';
 export default function MenuBtn() {
-    const [count, setCount] = useState(0)
+    const [count, setCouunnt] = useState(0)
     useEffect(() => {
         $('.menu-btn').on('click',
             () => {
