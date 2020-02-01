@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState, useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import './menubtn.css';
 import $ from 'jquery';
 export default function MenuBtn() {
