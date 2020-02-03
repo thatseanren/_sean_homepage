@@ -8,6 +8,7 @@ import MenuBtn from './component/menubtn'
 console.log(Avatar)
 console.log('fdsa')
 console.log('commit staged')
+console.log('fds')
 ReactDOM.render(<Avatar />, document.getElementsByClassName('component-avatar')[0]);
 ReactDOM.render(<MenuBtn />, document.getElementById('btn'));
 // If you want your app to work offline and load faster, you can change
