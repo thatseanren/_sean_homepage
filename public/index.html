@@ -24,6 +24,7 @@
         <li id='Skills'> <a> Skills</a></li>
         <li id='Experience'> <a> Experience</a></li>
         <li id='Value'> <a> Value</a></li>
+        <li id="KnowMe"><a>Know Me</a></li>
       </ul>
       <h3>Contact Me</h3>
       <a href="https://www.facebook.com/profile.php?id=100007375026743"><i class="fa fa-facebook-square"
@@ -59,6 +60,16 @@
       </a>
     </div>
   </div>
+  <div class='bio-section'> 
+   <div class="wrap">
+    <h2> KNOW ME</h2>
+    <h3>
+      &nbsp &nbsp I am an international student from &nbsp University of Technology, Sydney. &nbsp <br> My major is Becholar of Science in Information Technology. <br>I focus on both front-end development and back-end development, creating brilliant user experience using Node.JS, React.js, Express.js along with morden advanced technologies. <br>My goal is to deliver unique visual experiences in the form of web application, <br>to users arround the world.&nbsp   <br><br>
+      I not only continue to learn and adapt to new technologies but also seek new ways of thinking that allow me to design, code in a sustainablly creative way.<br><br>
+     
+      </h3>
+   </div>
+  </div>
   <div class='e-section'>
     <h2>Education</h2>
     <a href='https://www.uts.edu.au/'>
@@ -74,7 +85,22 @@
       </div>
     </a>
   </div>
-</body>
+  <div class='v-section'>
+    <h2> My Core Values</h2>
+    <div class="value value-1">
+      <h3>Love</h3>
+      Do what I love, Love what I do, My passionate is to finding a way to love my job, integrate my personality with my responsibility. Use my knowledge deliver the best to my job
+      </div>
+    <div class="value value-2">
+      <h3>Respect</h3>
+      Respect the knowledge, Valuing the diversity of knowledge, achieving a comprehensive knowledge base to serve my job, obsorbing, discussing and sharing every valuable piece of knowledge to people who need.
+      </div> 
+    <div class="value value-3">
+      <h3>Determinated</h3>
+      Determinated, valuing every product, demonstrating a "can-be-better" attitude and mainteining a keep-evovling production system.
+      </div>
+  </div>
+  </body>
 <script>
   var typed = new Typed('.description-content', {
     strings: ['Ren is a person who constantly imagines himself as he is racing towards the future'],
@@ -89,14 +115,16 @@
     .setClassToggle(".h-section", "shallow") // add class toggle
     .addTo(controller); // assign the scene to the controller
   new ScrollMagic.Scene({
-    
+    offset:120
   })
+    .setClassToggle(".nav-br", "hide")
+    .addTo(controller);
+   
   
-  
-  const values = 'Do what I love, Love what I do, My passionate is to finding a way to love my job, integrate my personality with my responsibility. Use my knowledge deliver the best to my job'
+  const values1 = 'Do what I love, Love what I do, My passionate is to finding a way to love my job, integrate my personality with my responsibility. Use my knowledge deliver the best to my job'
   const values2 = 'Respect the knowledge, Valuing the diversity of knowledge, achieving a comprehensive knowledge base to serve my job, obsorbing, discussing and sharing every valuable piece of knowledge to people who need.'
   const values3 = 'Determinated, valuing every product, demonstrating a "can-be-better" attitude and mainteining a keep-evovling production system. '
-  const bio = "I am an international studen from University of Technology, Sydney, my major is Becholar of Science in Information Technology. Back in my young age, I am a big fan of Leagur of Legends, The reason I step into Front-end development is that I met a friend of mine in the collage, he started by asking me what is my primary language, and I was like I dont really have one yet, what is yours? He replied me Javascript. I was like oh thats amazing. Since then, javascript has become my primary language. So, everytime I see some articles about javascript tricks, pros and downs, you will definetly see me clicking on that article and start enjoying. And when I looked back, I realized things just happened randomly, of course his primary language is javascript as a front-end developer, and I started to know javascript just because it is the first language that was introduced to my by a close friend. Thus, meeting both him and Javascript is always a pleasent memory for me. "
+  const bio = "I am an international student from University of Technology, Sydney, my major is Becholar of Science in Information Technology. Back in my young age, I am a big fan of Leagur of Legends, The reason I step into Front-end development is that I met a friend of mine in the collage, he started by asking me what is my primary language, and I was like I dont really have one yet, what is yours? He replied me Javascript. I was like oh thats amazing. Since then, javascript has become my primary language. So, everytime I see some articles about javascript tricks, pros and downs, you will definetly see me clicking on that article and start enjoying. And when I looked back, I realized things just happened randomly, of course his primary language is javascript as a front-end developer, and I started to know javascript just because it is the first language that was introduced to my by a close friend. Thus, meeting both him and Javascript is always a pleasent memory for me. "
 </script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
